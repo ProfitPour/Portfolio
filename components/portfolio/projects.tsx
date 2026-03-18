@@ -36,6 +36,13 @@ const projects = [
     image: '/images/project-4.png',
     tags: ['UI/UX', 'Marketplace', 'Design'],
   },
+  {
+    title: 'The Beacon Lounge',
+    description: 'A modern digital experience for a coastal lounge bar, reflecting its scenic views, lively events, and inviting, social atmosphere.',
+    url: 'https://www.thebeaconlounge.co.uk',
+    image: '/images/project-5.png',
+    tags: ['UI/UX', 'Web Design', 'Web Development'],
+  },
 ]
 
 export function Projects() {
