@@ -86,7 +86,7 @@ export function About() {
                 {"I'm Josh Morrison, a digital designer and developer based in the UK. I believe in the power of design to transform ideas into meaningful experiences."}
               </p>
               <p>
-                With a passion for clean aesthetics and functional innovation, I work with brands and businesses to create digital products that not only look exceptional but perform flawlessly.
+                With a passion for clean aesthetics and functional innovation, I work with brands and businesses to create digital products that not only look exceptional but perform well.
               </p>
               <p>
                 Every project is an opportunity to push boundaries and deliver something truly memorable.
