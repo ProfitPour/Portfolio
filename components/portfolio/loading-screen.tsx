@@ -19,19 +19,30 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
 
   useEffect(() => {
     if (!isClient) return;
-    
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isClient]);
+
+  useEffect(() => {
+    if (!isClient) return;
+
     const container = containerRef.current;
     const progress = progressRef.current;
     const counter = counterRef.current;
     if (!container || !progress || !counter) return;
 
     const tl = gsap.timeline({
-      onComplete: () => {
+          onComplete: () => {
         gsap.to(container, {
           yPercent: -100,
           duration: 0.8,
           ease: "power3.inOut",
-          onComplete,
+          onComplete: () => {
+            document.body.style.overflow = "";
+            onComplete();
+          },
         });
       },
     });
