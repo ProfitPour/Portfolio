@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { ArrowUpRight, Mail } from 'lucide-react'
+import { ArrowUpRight, MessageCircle } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -92,13 +92,15 @@ export function Contact() {
             {"Have a project in mind? I'd love to hear about it. Let's discuss how we can work together to bring your vision to life."}
           </p>
 
-          {/* Email button */}
+          {/* WhatsApp button */}
           <a
-            href="mailto:hello@joshmorrison.co.uk"
+            href="https://wa.me/447752556998"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-4 px-8 py-4 bg-foreground text-background rounded-full hover:bg-accent transition-colors duration-300"
           >
-            <Mail className="w-5 h-5" />
-            <span className="text-lg font-medium">hello@joshmorrison.co.uk</span>
+            <MessageCircle className="w-5 h-5" />
+            <span className="text-lg font-medium">WhatsApp Me</span>
             <ArrowUpRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
           </a>
 
