@@ -117,21 +117,35 @@ export function About() {
               <div className="p-8 border border-border rounded-sm">
                 <span 
                   className="stat-number text-5xl md:text-6xl font-display font-bold text-foreground"
-                  data-value="50"
+                  data-value="27"
                   style={{ fontFamily: 'var(--font-display)' }}
                 >
                   0
                 </span>
                 <span className="text-4xl md:text-5xl font-display font-bold text-accent" style={{ fontFamily: 'var(--font-display)' }}>+</span>
                 <p className="mt-2 text-muted-foreground text-sm uppercase tracking-wider">
-                  Projects Completed
+                  Projects
                 </p>
               </div>
               
               <div className="p-8 border border-border rounded-sm">
                 <span 
                   className="stat-number text-5xl md:text-6xl font-display font-bold text-foreground"
-                  data-value="5"
+                  data-value="20"
+                  style={{ fontFamily: 'var(--font-display)' }}
+                >
+                  0
+                </span>
+                <span className="text-4xl md:text-5xl font-display font-bold text-accent" style={{ fontFamily: 'var(--font-display)' }}>+</span>
+                <p className="mt-2 text-muted-foreground text-sm uppercase tracking-wider">
+                  Clients
+                </p>
+              </div>
+              
+              <div className="p-8 border border-border rounded-sm">
+                <span 
+                  className="stat-number text-5xl md:text-6xl font-display font-bold text-foreground"
+                  data-value="7"
                   style={{ fontFamily: 'var(--font-display)' }}
                 >
                   0
@@ -139,20 +153,6 @@ export function About() {
                 <span className="text-4xl md:text-5xl font-display font-bold text-accent" style={{ fontFamily: 'var(--font-display)' }}>+</span>
                 <p className="mt-2 text-muted-foreground text-sm uppercase tracking-wider">
                   Years Experience
-                </p>
-              </div>
-              
-              <div className="p-8 border border-border rounded-sm">
-                <span 
-                  className="stat-number text-5xl md:text-6xl font-display font-bold text-foreground"
-                  data-value="30"
-                  style={{ fontFamily: 'var(--font-display)' }}
-                >
-                  0
-                </span>
-                <span className="text-4xl md:text-5xl font-display font-bold text-accent" style={{ fontFamily: 'var(--font-display)' }}>+</span>
-                <p className="mt-2 text-muted-foreground text-sm uppercase tracking-wider">
-                  Happy Clients
                 </p>
               </div>
               
