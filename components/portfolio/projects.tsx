@@ -9,25 +9,25 @@ gsap.registerPlugin(ScrollTrigger)
 
 const projects = [
   {
+    title: 'The Velour',
+    description: "A complete branding and web experience crafted for Velour, embracing a slow, immersive digital journey that mirrors the bar's intimate atmosphere.",
+    url: 'https://www.thevelour.co.uk/',
+    image: '/images/project-1.png',
+    tags: ['UI/UX', 'Branding', 'Design'],
+  },
+  {
     title: 'Koha Bar & Restaurant',
     description: 'A refined website for a modern Mediterranean bar and restaurant, designed to reflect quality, atmosphere, and a premium dining experience.',
     url: 'https://koha.joshmorrison.co.uk/',
-    image: '/images/project-1.png',
+    image: '/images/project-2.png',
     tags: ['UI/UX', 'Web Design', 'Development'],
   },
   {
     title: 'Profit Pour',
     description: 'A modern SaaS solution designed to elevate beverage profitability, offering intuitive margin tracking and advanced analytics for drinks.',
     url: 'https://www.profitpour.co.uk/',
-    image: '/images/project-2.png',
-    tags: ['UI/UX', 'Web App', 'SaaS'],
-  },
-  {
-    title: 'The Velour',
-    description: "A complete branding and web experience crafted for Velour, embracing a slow, immersive digital journey that mirrors the bar's intimate atmosphere.",
-    url: 'https://www.thevelour.co.uk/',
     image: '/images/project-3.png',
-    tags: ['UI/UX', 'Branding', 'Design'],
+    tags: ['UI/UX', 'Web App', 'SaaS'],
   },
   {
     title: 'MCModels',
