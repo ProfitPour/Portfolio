@@ -33,7 +33,7 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
   }, []);
 
   return (
-    <div ref={containerRef} className="smooth-scroll">
+    <div ref={containerRef} className="smooth-scroll overflow-x-clip">
       {children}
     </div>
   );
