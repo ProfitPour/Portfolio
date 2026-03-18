@@ -124,8 +124,11 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 md:px-8">
         <h1
           ref={titleRef}
-          className="text-[12vw] md:text-[10vw] lg:text-[8vw] font-display font-bold leading-none tracking-tighter text-foreground"
-          style={{ fontFamily: 'var(--font-display)' }}
+          className="font-display font-bold leading-none tracking-tighter text-foreground"
+          style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 'clamp(2.5rem, 10vw, 9rem)',
+          }}
         >
           {splitChars}
         </h1>
