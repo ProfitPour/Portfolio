@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'Koha Bar & Restaurant',
     description: 'A refined website for a modern Mediterranean bar and restaurant, designed to reflect quality, atmosphere, and a premium dining experience.',
-    url: 'https://koha.joshmorrison.co.uk/',
+    url: 'https://www.koharestaurant.co.uk/',
     image: '/images/project-2.png',
     tags: ['UI/UX', 'Web Design', 'Development'],
   },
